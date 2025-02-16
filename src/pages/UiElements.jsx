@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Box, useColorModeValue, VStack,Heading } from "@chakra-ui/react";
-import { Button, Card, Modal, CustomDrawer, InputField, Tabs, Text, Table } from "../components/UI/index";
+import { Button, Card, Modal, CustomDrawer, InputField, Tabs, Text, Table } from "../components/ui/index";
 
 function DashboardPage() {
   const bgColor = useColorModeValue("base.bglight", "base.bgdark");

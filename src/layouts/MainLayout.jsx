@@ -109,7 +109,7 @@ const MainLayout = () => {
         </Flex>
 
         {/* Main Content - Only Content is Scrollable */}
-        <Box flex="1" overflowY="auto" p={6} mt="60px">
+        <Box flex="1" overflowY="auto" p={6} mt="60px" bg={colorMode}>
           <Outlet />
         </Box>
       </Flex>

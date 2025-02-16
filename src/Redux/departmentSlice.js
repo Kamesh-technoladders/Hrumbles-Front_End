@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import supabase from "../config/supabaseClient";
+import  supabase  from "../config/supabaseClient"; 
 
 // ✅ Fetch Departments
 const fetchDepartments = createAsyncThunk(

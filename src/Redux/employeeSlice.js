@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import supabase from "../config/supabaseClient";
+import  supabase  from "../config/supabaseClient"; 
 
 // ✅ Helper function to get Role ID
 const getRoleId = async (roleName) => {
